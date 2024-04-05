@@ -1,17 +1,46 @@
 body{
-    background-color: rgb(15, 191, 204);
+    background-color:white;
 }
-
+.contents {
+    display: flex;
+    align-items: center;
+  
+}
+.contents-right {
+    text-align: center; 
+}
+.contents-left {
+    margin-left: 100px;
+}
+.contents-left input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.contents-left button {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+}
+.form-inputs {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.form-inputs textarea {
+    border: none;
+    border-bottom: 2px solid black;
+}
 .dividers {
-border-left: 1px solid #000; 
+border-left: 3px solid #000; 
 height: 100%;
 margin: 0 10px; 
 }
-/*.box {
+.box {
     width: 630px;
     height: 50px;
     background-color: rgb(247, 8, 8);
-    border: 2px solid darkblue;
+    border: 2px solid white;
     border-radius: 10px;
     padding: 10px;
     margin: -0px auto;
@@ -59,4 +88,4 @@ p.copyright {
 }
 .right h4{
     padding-top: 80px;
-}*/
+}
